@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animated Navbar</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo">Frontend</div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+    <header class="hero">
+      <div class="hero-content">
+        <h1>Hi, I'm Mr. S</h1>
+        <p>Aspiring Web Developer | SEE Graduate</p>
+        <a href="#projects" class="btn">See My Work</a>
+      </div>
+    </header>
+    <section class="about" id="about">
+      <div class="container">
+        <h2>About Me</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p>
+              Hello! I’m Mr. S, an SEE graduate with a passion for web
+              development. I enjoy turning ideas into interactive websites and
+              continuously learning new skills.
+            </p>
+            <p>
+              I’ve been exploring HTML, CSS, JavaScript and now diving into PHP
+              & MySQL too!
+            </p>
+          </div>
+          <div class="about-img">
+            <img src="images/burger.jpg" alt="Profile Picture" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="projects" id="projects">
+      <div class="container">
+        <h2>My Projects</h2>
+        <div class="project-grid">
+          <div class="project-card">
+            <img src="images/burger.jpg" alt="Project 1" />
+            <h3>Animated Navbar</h3>
+            <p>
+              A responsive navigation bar with smooth animations and toggle
+              functionality.
+            </p>
+          </div>
+          <div class="project-card">
+            <img src="images/burger.jpg" alt="Project 2" />
+            <h3>Landing Page</h3>
+            <p>
+              A clean and simple landing page using HTML, CSS, and basic JS.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <div class="container">
+        <h2>Contact Me</h2>
+        <form class="contact-form">
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+          <textarea rows="5" placeholder="Your Message" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2025 Mr. S. All rights reserved.</p>
+        <div class="social-links">
+          <a href="https://instagram.com/er.sba" target="_blank">Instagram</a>
+          <a href="#" target="_blank">GitHub</a>
+          <a href="#" target="_blank">LinkedIn</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
